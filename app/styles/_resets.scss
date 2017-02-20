@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0;
+  padding: 1rem;
+  background: black;
+
+  &__results {
+    background: #e3e3e3;
+  }
+}
+
+.wrapper {
+  max-width: 55rem;
+  margin: 0 auto;
+}

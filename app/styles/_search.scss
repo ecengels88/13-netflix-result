@@ -1,0 +1,24 @@
+.search-div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.search-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem;
+  border-style: none;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+.search-button {
+  margin: 0;
+  padding: 0.5rem;
+  border: 0;
+  background: #5577e3;
+  color: #fefefe;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
