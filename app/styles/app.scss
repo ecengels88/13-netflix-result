@@ -7,11 +7,17 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'resets';
 @import 'search';
 
-.summary {
+
+.results {
+  padding: 1rem;
+  background: #e3e3e3;
+}
+
+.upper-summary {
   display: flex;
   justify-content: space-between;
+}
 
-  &__pic {
-    margin: 1rem;
-  }
+.summary__pic {
+  margin: 0.5rem;
 }
