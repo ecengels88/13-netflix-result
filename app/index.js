@@ -6,14 +6,14 @@ const searchBtn = document.querySelector('.search-button');
 const searchResults = document.querySelector('.results');
 
 function searchForMovies(name) {
-fetch(`http://netflixroulette.net/api/api.php?title=${name}`)
-  .then((res) => {
-    return res.json();
-  }).then((data) => {
+  fetch(`http://netflixroulette.net/api/api.php?title=${name}`)
+  .then(res => res.json()).then((data) => {
     movieResults(searchResults, data);
   });
 }
 
-  searchBtn.addEventListener('click', () => {
-    searchForMovies(searchInput.value);
-  })
+searchBtn.addEventListener('click', () => {
+  searchForMovies(searchInput.value);
+});
+
+searchForMovies('Clerks');
